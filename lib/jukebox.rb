@@ -33,6 +33,7 @@ def play(songs)
   if songs.include?(users_response)
     puts "Playing #{users_response}"
   else puts "Invalid input, please try again"
+  end
 end
 
 
