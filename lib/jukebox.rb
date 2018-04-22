@@ -1,3 +1,5 @@
+require 'pry'
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -18,6 +20,13 @@ def help
 - play : lets you choose a song to play
 - exit : exits this program"
 end
+
+def list(songs)
+  songs.each_with_index do |value, index|
+    binding.pry
+  end
+end
+
 
 
 =begin
