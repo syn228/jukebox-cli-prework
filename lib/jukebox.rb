@@ -12,6 +12,8 @@ songs = [
 
 
 def help
+  puts "I accept the following commsnds:"
+  
   
 end
 
