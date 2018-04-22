@@ -22,7 +22,7 @@ def help
 end
 
 def list(songs)
-  songs.each_with_index do |value, index|
+  songs.each_with_index |value, index|
     binding.pry
   end
 end
