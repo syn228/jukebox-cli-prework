@@ -33,7 +33,7 @@ def play(songs)
   if songs.include?(users_response)
     puts "Playing #{users_response}"
   elsif users_response.to_i.include?(1..9)
-    puts "Playing #{songs[users_response.to_i - 1]"
+    puts "Playing #{songs[users_response.to_i - 1]}"
   else puts "Invalid input, please try again"
   end
 end
