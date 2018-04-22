@@ -22,7 +22,7 @@ def help
 end
 
 def list(songs)
-  songs.each_with_index {|value, index| "#{index + 1}. #{value[index]}" }
+  songs.each_with_index {|value, index| index + 1 value[index] }
    
 end
 
