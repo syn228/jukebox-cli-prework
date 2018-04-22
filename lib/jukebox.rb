@@ -30,7 +30,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   users_response = gets.chomp
-  if users_response == songs[0..-1]
+  if users_response == songs[]
     puts "Playing #{users_response}"
   else puts "Invalid input, please try again"
 end
