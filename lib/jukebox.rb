@@ -11,6 +11,11 @@ songs = [
 ]
 
 
+def help
+  
+end
+
+
 =begin
 def say_hello(name)
   "Hi #{name}!"
